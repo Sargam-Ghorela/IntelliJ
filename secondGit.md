@@ -15,5 +15,10 @@ to make a new branch-- git branch <name>
 
 to switch to the newly created branch. git checkout branch_name
 
+downstream          upstream
+local [remote].     remote[github,bitbucket,gitlab]
 
 
+git stash 
+stash pop
+---hold the work without actually comitting
