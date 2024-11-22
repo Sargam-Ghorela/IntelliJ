@@ -13,7 +13,14 @@ to check branch u are in -- git branch
 
 to make a new branch-- git branch <name>
 
+git checkout branchname  to switch branches
+
+git checkout -b newbranchName   swithcing to new branch and cretaing it on the same time
+
+ 
 to switch to the newly created branch. git checkout branch_name
+
+
 
 downstream          upstream
 local [remote].     remote[github,bitbucket,gitlab]
