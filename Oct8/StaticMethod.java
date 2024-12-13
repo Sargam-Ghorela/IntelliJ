@@ -6,12 +6,21 @@ public class StaticMethod {
 
     static {
 
-        System.out.println("static block");
+        System.out.println("static block 1");
     }
+    {
+        System.out.println("instance  block ");
+    }
+    static {
 
+        System.out.println("static block 2");
+    }
+    StaticMethod() {
+        System.out.println("Const block");
+    }
     public static void test()
     {
-        System.out.println("This is the method");
+        System.out.println("This is the test method");
     }
 
 

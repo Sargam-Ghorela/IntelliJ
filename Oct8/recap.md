@@ -63,3 +63,11 @@ static {
 This static block will get executes first whenever the
 class is called.If there is a default const then also this static block 
 is loaded in the memory and executes first.
+
+
+### 
+Static block is called first.
+
+Instace Block is called then constructor called.
+
+
